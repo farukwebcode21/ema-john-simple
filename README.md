@@ -3,8 +3,8 @@
 Emajon Simple 
 
 ## Use
- Fake Data
- React Router [Link](https://reactrouter.com/web/guides/quick-start)
+ Fake Data.\
+ React Router [Link](https://reactrouter.com/web/guides/quick-start)\
  Font Awesome [Link](https://fontawesome.com/)
 
 ## Available Scripts
