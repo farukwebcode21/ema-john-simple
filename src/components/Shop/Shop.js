@@ -23,16 +23,17 @@ const Shop = () => {
             <div className="product-container">
             
             {
-                products.map(products => 
+                products.map(product => 
                 <Product 
+                    key={product.key}
                     handleAddProduct ={handleAddProduct}
-                    products={products}>
+                    product={product}>
                 </Product>)
             }
            
             </div>
             <div className="card-container">
-                <Cart Cart ={card} />
+                <Cart cart ={card} />
             </div>
 
         </div>
